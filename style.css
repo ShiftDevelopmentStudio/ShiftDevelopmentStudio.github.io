@@ -1,0 +1,116 @@
+/*
+z-index info
+3 navbar
+
+1 cont
+*/
+body{
+  overflow-x: hidden;
+  color:var(--txt);
+}
+.navbar{
+  width:100vw;
+  height: 5vh;
+  background: var(--main);
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+}
+.navbar img{
+  width:4vh;
+  height:4vh;
+  padding-left: 0.5vh;
+}
+.navbar span{
+  font-size: 4vh;
+}
+.navbar a{
+  text-decoration: none;
+  color: var(--txt);
+  transition: color 0.5s;
+  margin-left:15vw;
+}
+.navbar a:first-child{
+  margin-right: 15vw;
+}
+.navbar a:hover{
+  color:var(--red_main);
+}
+.cont{
+  position: absolute;
+  left:0;
+  top:5vh;
+  z-index: 1;
+  width:100vw;
+  height:100vh;
+  background: green;
+}
+.cont .thing{
+  width:100%;
+  height:30vh;
+  background: var(--sec);
+}
+.cont #about{
+  width:100vw;
+  height:30vh;
+  padding-top:35vh;
+  position: relative;
+  background: var(--tri);
+}
+.cont #about .title{
+  display: inline-block;
+  width:100vw;
+  text-align: center;
+  font-size: 10vh;
+  position: absolute;
+  left:0;
+  top:2vh;
+  color:var(--txt);
+}
+.cont #about .desc{
+  display: inline-block;
+  text-align: center;
+  width:100vw;
+  color:var(--txt);
+  position: absolute;
+  left:0;
+  top:15vh;
+}
+.cont #about .title-2{
+  display: inline-block;
+  width:100vw;
+  text-align: center;
+  font-size: 10vh;
+  position: absolute;
+  left:0;
+  top:25vh;
+  color:var(--txt);
+}
+.cont #about .emp{
+  display: inline-block;
+  text-align: center;
+  width:100vw;
+  color:var(--txt);
+  position: absolute;
+  left:0;
+  top:40vh;
+}
+#works{
+  padding-top:65vh;
+  width:100vw;
+  background: var(--quad);
+  position: relative;
+  height:25vh;
+}
+#works .title{
+  display: inline-block;
+  width:100vw;
+  text-align: center;
+  font-size:10vh;
+  position: absolute;
+  top:2vh;
+  left:0;
+}

@@ -1,0 +1,15 @@
+:root{
+  --gray_main:#475b5a;
+  --gray_sec:#4d5757;
+  --gray_tri:#535353;
+  --red_main:#a31621;
+  --red_sec:#a7212b;
+  --red_tri:#ab2b35;
+  --txt:white;
+  --main:#101010;
+  --sec:#1d201e;
+  --tri:#AC3931;
+  --quad:#833B34;
+  --pent:#6c3e37;
+}
+.invis{display: none !important;}

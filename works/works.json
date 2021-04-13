@@ -1,0 +1,22 @@
+[
+  {
+    "name":"Example",
+    "hasSteam":true,
+    "steam":"http://example.com",
+    "hasItch":true,
+    "itch":"http://example.com",
+    "contributors":{
+      "Lann":"Senior Developer",
+      "Nonfake":"Audio design",
+      "Baidan":"Developer",
+      "Someone Else":"Someone"
+    },
+    "hasImages":true,
+    "images":{
+      //USE DATA URI FOR GODS SAKE
+      "banner":"/Examples/banner.png",
+      "icon":"/Examples/icon.png"
+    },
+    "content":"This Game is really cool, like really cool, like really really cool. \n You can download it on some really cool websites."
+  }
+]
